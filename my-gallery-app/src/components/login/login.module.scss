@@ -1,0 +1,30 @@
+$theme:#16a085;
+$theme-dark:#00866c;;
+$color:#2c3e50;
+.login{
+    .loginTitle{
+        border-bottom: 2px solid $theme;
+        color: $theme;
+    }
+    .form{
+        input{
+            line-height: 40px;
+            border: 2px solid $theme;
+            outline: none;
+            font-size: 15px;
+            color: $color;
+        }
+        .loginSubmit{
+            background-color: $theme;
+            &:active{
+                background-color: $theme-dark;
+            }
+        }
+        
+        span{
+            color: $theme;
+            cursor: pointer;
+        }
+
+    } 
+}

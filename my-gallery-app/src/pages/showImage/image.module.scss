@@ -1,0 +1,19 @@
+$theme:#16a085;
+$theme-dark:#00866c;;
+.image{
+    height: calc(100vh - 50px);
+    background-color: $theme-dark;
+    span{
+        cursor: pointer;
+    }
+    .icon{
+        cursor: pointer;
+    }
+    input{
+        border: none;
+        // &:focus{
+        //     outline: none;
+        // }
+    }
+    
+}

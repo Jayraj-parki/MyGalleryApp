@@ -1,0 +1,31 @@
+$theme: #16a085;
+$color: #2c3e50;
+$theme-dark: #00866c;
+$light-color: rgb(129, 129, 129);
+$shadow: 0px 1.2px 4px 0.1px rgb(175, 175, 175);
+.folderBtn {
+    .editFolder {
+        background-color: $light-color;
+        color: white;
+        &:hover {
+            background-color: white;
+            color: $color;
+        }
+        &:active {
+            background-color: $theme-dark;
+            color: white;
+        }
+    }
+    .deleteFolder {
+        background-color: tomato;
+        color: white;
+        &:hover {
+            background-color: white;
+            color: $color;
+        }
+        &:active {
+            background-color: $theme-dark;
+            color: white;
+        }
+    }
+}
